@@ -65,6 +65,10 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
+
+  @media  screen and (max-width: 470px) {
+    bottom: 18vmin;
+  }
 }
 
 h1{
@@ -84,11 +88,13 @@ h1{
 }
 
 
-.flower, h1 {
+.flower{
   position: absolute;
   bottom: 10vmin;
   transform-origin: bottom center;
   z-index: 10;
+
+  
 
   --fl-speed: 0.8s;
 
