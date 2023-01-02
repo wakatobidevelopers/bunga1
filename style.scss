@@ -76,6 +76,10 @@ h1{
   background: -webkit-linear-gradient(rgb(0, 255, 250), rgb(240, 240, 240));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media  screen and (max-width: 470px) {
+    margin-top: 100px;
+  }
 }
 
 

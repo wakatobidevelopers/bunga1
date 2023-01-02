@@ -46,10 +46,15 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 470px) {
+  h1 {
+    margin-top: 100px;
+  }
+}
 
 .flower, h1 {
   position: absolute;
-  bottom: 10vmin;
+  bottom: -10vmin;
   transform-origin: bottom center;
   z-index: 10;
   --fl-speed: 0.8s;
